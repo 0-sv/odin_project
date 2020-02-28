@@ -1,0 +1,91 @@
+#top {
+    background-color: #ccc;
+    padding: 20px
+}
+
+#top p {
+    color: green;
+}
+
+.intro, .intro2 {
+    color: red;
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+body {
+    font-size: 14px;
+    color: grey;
+    background-color: lightgrey;
+    font-family: arial, helvetica, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    color: green;
+    margin: 20px;
+    padding: 40px;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+}
+
+p {
+    letter-spacing: 0.5em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+p:first-child {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* shorthand properties */
+p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+}
+
+p:first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+p:first-line {
+    font-weight: bold;
+}
