@@ -70,6 +70,10 @@ table {
 
 .center {
 	display: inline-block;
+	position: fixed;
+	top: 200px;
+	right: 0;
+	left: 0;
 }
 
 #google_image {
