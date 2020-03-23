@@ -48,11 +48,15 @@ table {
 }
 
 /* Styling post CSS reset */
-#top_nav_left {
+nav {
+	
+}
+
+.div_left {
     float: left;
 }
 
-#top_nav_right {
+.div_right {
     float: right;
 }
 
@@ -81,7 +85,11 @@ table {
 	width: auto;
 }
 
-#footer {
+footer {
 	position: fixed;
 	bottom: 0;
+	left: 0;
+  	width: 100%;
+	background-color: #f2f2f2;
+  	overflow: hidden;
 }
