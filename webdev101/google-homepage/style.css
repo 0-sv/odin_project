@@ -48,7 +48,6 @@ table {
 }
 
 /* Styling post CSS reset */
-
 #top_nav_left {
     float: left;
 }
@@ -63,4 +62,9 @@ table {
 	height: 33px;
 	width: 33px;
 	vertical-align: middle;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
 }
