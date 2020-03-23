@@ -64,6 +64,19 @@ table {
 	vertical-align: middle;
 }
 
+.center_parent {
+	text-align: center;
+}
+
+.center {
+	display: inline-block;
+}
+
+#google_image {
+	height: auto;
+	width: auto;
+}
+
 #footer {
 	position: fixed;
 	bottom: 0;
