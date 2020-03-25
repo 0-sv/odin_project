@@ -1,0 +1,3 @@
+[submodule "webdev101/js_fundamentals/javascript-exercises"]
+	path = webdev101/js_fundamentals/javascript-exercises
+	url = git@github.com:svatwork/javascript-exercises.git
