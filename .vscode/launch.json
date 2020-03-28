@@ -16,6 +16,19 @@
             "cwd": "${workspaceRoot}",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Jasmine Test for 'webdev101/js_fundamentals/javascript-exercises/removeFromArray'",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": ["${workspaceRoot}/webdev101/js_fundamentals/javascript-exercises/removeFromArray/removeFromArray.js"],
+            "program": "/usr/local/bin/jasmine",
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         }
     ]
 }
