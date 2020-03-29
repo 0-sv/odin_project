@@ -1,6 +1,6 @@
-// a <p> with red text that says “Hey I’m red!”
 const container = document.querySelector("#container");
 
+// a <p> with red text that says “Hey I’m red!”
 const red = document.createElement('p');
 red.textContent = "Hey I\'m red";
 red.style.color = 'red';
