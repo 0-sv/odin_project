@@ -29,3 +29,24 @@ blackAndPink.appendChild(pInADiv);
 container.appendChild(red);
 container.appendChild(blue);
 container.appendChild(blackAndPink);
+
+// Select regular button
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello world");
+
+// Select separate js 
+const btn_ev = document.querySelector('#btn_ev');
+btn_ev.addEventListener('click', () => {
+    alert("Hello world");
+})
+
+// Named function
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+}
+  
+// METHOD 2
+namedBtn.onclick = alertFunction;
+  
+// METHOD 3
+NamedBtn_ev.addEventListener('click', alertFunction);
