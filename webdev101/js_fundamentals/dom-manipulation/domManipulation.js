@@ -36,8 +36,8 @@ btn.onclick = () => alert("Hello world");
 
 // Select separate js 
 const btn_ev = document.querySelector('#btn_ev');
-btn_ev.addEventListener('click', () => {
-    alert("Hello world");
+btn_ev.addEventListener('click', (e) => {
+    e.target.style.background = 'blue';
 })
 
 // Named function
