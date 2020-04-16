@@ -46,6 +46,6 @@ const buttons = document.querySelectorAll('button');
 
 buttons.forEach((button) => {
   button.addEventListener('click', (e) => {
-    console.log(playRound(e.srcElement.id, computerPlay()));
+    document.querySelector('output').innerHTML = playRound(e.srcElement.id, computerPlay())[0];
   });
 });
