@@ -41,3 +41,11 @@ let playRound = (playerSelection, computerSelection) => {
       return ["Error! Please spell either rock, paper or scissors.", 0];
   }
 }
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    console.log(playRound(e.srcElement.id, computerPlay()));
+  });
+});
