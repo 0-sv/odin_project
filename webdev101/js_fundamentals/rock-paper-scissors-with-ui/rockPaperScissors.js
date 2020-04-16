@@ -12,11 +12,6 @@ let computerPlay = () => {
   }
 
   let playRound = (playerSelection, computerSelection) => {
-    // let playerSelectionSanitized = function () { 
-    //   let sanitize = playerSelection.toLowerCase();
-    //   sanitize = sanitize[0].toUpperCase() + sanitize.slice(1);
-    //   return sanitize;
-    // }
     let playerSelectionSanitized = playerSelection.toLowerCase();
     playerSelectionSanitized = playerSelectionSanitized[0].toUpperCase() + playerSelectionSanitized.slice(1);
     
